@@ -1,13 +1,7 @@
 server:
   port: 9999
-
-security:
-  oauth2:
-    client:
-      client-id: acme
-      client-secret: acmesecret
-      scope: read,write
-      auto-approve-scopes: '.*'
+  servlet:
+    context-path: /uaa
 
 facebook:
   client:
